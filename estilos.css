@@ -1,0 +1,33 @@
+
+li{
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+li:hover{
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 10px 10px;
+}
+article{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline-offset: -2px;
+}
+article:hover{
+    cursor: pointer;
+}
